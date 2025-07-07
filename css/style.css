@@ -1,0 +1,266 @@
+@import url(./normalize.css);
+
+main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 14px;
+    color: #2F281E;
+}
+
+#productly-logo {
+    display: flex;
+}
+
+#productly {
+    margin-top: 5px;
+}
+
+.nav {
+    margin-left: 400px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+.menu_line:hover {
+    font-size: bold;
+}
+
+#login-button {
+    background-color: white;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.color_btn:hover {
+    background-color: #a76400;
+}
+
+.color_btn {
+    background-color: #FF9900;
+    color: white;
+    border: 1px solid #FF9900;
+
+}
+
+#product_info,
+#product_text,
+#customers,
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+#product_text {
+    gap: 30px;
+}
+
+#product_info {
+    gap: 45px;
+}
+
+#product_text p {
+    width: 458px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.title_1 {
+    width: 518px;
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#products_btn,
+#watch_btn,
+#block_container {
+    display: flex;
+    align-items: center;
+}
+
+#products_btn {
+    gap: 30px;
+}
+
+#watch_btn,
+#productly-logo {
+    gap: 8px;
+}
+
+.video_link {
+    color: #FF9900;
+}
+
+#product_image {
+    width: max-content;
+}
+
+.container {
+    width: 1126px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#customers {
+    align-items: center;
+    margin-top: 120px;
+    padding-bottom: 90px;
+    background-image: url('../img/bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#customers h2 {
+    width: 539px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#block_container {
+    margin-top: 56px;
+    margin-bottom: 34px;
+    gap: 45px;
+}
+
+.block {
+    gap: 30px;
+}
+
+.icon_img {
+    width: 50px;
+    height: 50px;
+}
+
+#proffesionals {
+    margin-top: 120px;
+}
+
+.block_text h5 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.block_text p {
+    width: 240px;
+    margin: 13 0 0 0;
+}
+
+#proffesions_text_block h6 {
+    font-size: 16px;
+    margin: 0;
+}
+
+#proffesions_text_block p {
+    width: 456px;
+}
+
+#proffesionals {
+    margin-bottom: 50px;
+}
+
+#breake__line {
+    color: rgba(188, 208, 229, 0.5);
+}
+
+footer {
+    padding: 70px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.link_container {
+    gap: 30px;
+}
+
+.quick__list {
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+.quick__link {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+#button-container {
+    gap: 25px;
+}
+
+.phone-input {
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+}
+
+.phone-input::placeholder {
+  color: #c5c5c5;
+}
+
+.signup-button {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #e88e00;
+}
